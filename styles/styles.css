@@ -31,6 +31,10 @@ color: #4E47FF;
     height: 48px;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color:purple;
+    transform:scale(1.1);
+}
 /* here nav bar-bar use for make the elements in one line and justify content use for set them in both side,align items center for place them horizontally in one line */
 .nav-bars{display: flex;
 justify-content: space-between;
