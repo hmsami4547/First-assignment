@@ -61,7 +61,7 @@ align-items: center;}
 }
 .first-body-section{
     margin:116px 159px 116px 141px ;
-}
+    }
 .first-body-content{
     display: flex;
     justify-content: space-between;
@@ -166,3 +166,32 @@ img{
     .pad{text-align: center;
         display: flex;
         justify-content: center;}
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-heading{
+            font-size: 97px;
+            font-weight: bold;
+            color: #000000;
+            line-height: 120%;
+            padding-right: 300px;
+        }
+         footer input [type="text"],footer input [type="email"],footer textarea{ 
+             display: block; 
+             width: 100%;
+             
+              
+             background-color: #FFFFFF; 
+             border-radius: 10px; 
+             padding top:20px; 
+             padding left:32px; 
+             margin bottom: 20px;} 
+            .footer-input{
+                display: block;
+            
+            }
+            .wi{
+                padding: 19px 201px;
+            }
