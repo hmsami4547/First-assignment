@@ -20,6 +20,7 @@ font-size: 34px;
 color: #4E47FF;
 }
 .btn-primary{
+    border: none;
     color: #FFFFFF;
     background-color: #4E47FF;
     padding: 12px 36px;
@@ -28,6 +29,7 @@ color: #4E47FF;
     font-size: 16px;
     border-radius: 10px;
     height: 48px;
+    cursor: pointer;
 }
 /* here nav bar-bar use for make the elements in one line and justify content use for set them in both side,align items center for place them horizontally in one line */
 .nav-bars{display: flex;
@@ -138,3 +140,29 @@ img{
     .align{
         text-align: center;
     }
+    .opt-heading{text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 120%;
+        color: #000000;
+    }
+    .opt-paragraph{
+        text-align: center;
+        color: rgb(0, 0, 0, 0.5);
+    }
+    .opt-button{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        border: none;
+    }
+    .last-image{
+        width: 840px;
+        border-radius: 48px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .pad{text-align: center;
+        display: flex;
+        justify-content: center;}
