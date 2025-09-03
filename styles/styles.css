@@ -1,0 +1,90 @@
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.navigation{
+line-height: 150%;
+font-weight: bold;
+font-size: 34px;
+color: #4E47FF;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    line-height: 150%;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 48px;
+}
+/* here nav bar-bar use for make the elements in one line and justify content use for set them in both side,align items center for place them horizontally in one line */
+.nav-bars{display: flex;
+justify-content: space-between;
+padding-left:150px;
+padding-right: 150px;
+padding-top: 50px;
+align-items: center;}
+.first-part{
+    background-image: url("../Assets/Hero-bg.png");
+}
+.header-paragraph{
+    color: #252432;
+    font-weight:Bold ;
+    font-size:65px ;
+    text-align: center;
+    /* padding: 309px 267.5px 237px 267.5px; */
+}
+.header-content{
+    justify-content: center;
+    width: 905px;
+   padding: 309px 350px 152px 330px; 
+  /* margin: 309px auto 152px auto */
+}
+.second-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.first-body-section{
+    margin:116px 159px 116px 141px ;
+}
+.first-body-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-heading{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.content-paragraph{
+    line-height: 30px;
+    font-size: 24px;
+    color: #252432;
+    opacity: 0.5;
+
+}
+.first-body-content-paragraph{
+    padding-right: 623px;
+}
+img{
+    border-radius: 48px;
+}
+
+.reach{
+    display: flex;
+    flex-wrap: wrap;
+}
