@@ -114,3 +114,27 @@ img{
         color: rgb(0, 0, 0, 0.5);
         font-size: 20px;
     }
+.review-area{
+    display: flex;
+}
+    .review-image{
+        display: flex;
+    }
+    .review-lower-part{
+        display: flex;
+    }
+    ul li{ list-style: none;}
+    .review-content{
+        justify-content: space-around;
+        background-color:#F2EDED;
+        border-radius: 14px;
+        margin: 20px;
+        height: 200px;
+    }
+    reviews{
+        background-color: rgb(255, 255, 255, 0.5);
+        justify-content: center;
+    }
+    .align{
+        text-align: center;
+    }
