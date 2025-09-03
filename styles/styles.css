@@ -84,7 +84,33 @@ img{
     border-radius: 48px;
 }
 
-.reach{
-    display: flex;
-    flex-wrap: wrap;
+.reach-heading{
+    text-align: center;
+    /* padding: 50px 142px 211px 142px; */
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
 }
+.bg-add{
+    background-color:rgb(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding-top: 50px;
+    padding-left: 142px;
+    padding-right: 142px;
+    padding-bottom: 230px;
+    
+}
+.reach-content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;}
+    .reach-number{
+        color: #4E47FF;
+        font-weight: bold;
+        font-size: 80px;
+    }
+    .reach-paragraph{
+        color: rgb(0, 0, 0, 0.5);
+        font-size: 20px;
+    }
