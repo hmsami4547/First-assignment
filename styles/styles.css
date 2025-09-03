@@ -195,3 +195,36 @@ img{
             .wi{
                 padding: 19px 201px;
             }
+            .last-content{
+                
+            
+                display: block;
+                justify-content: center;
+                text-align: center;
+            }
+            .last-heading{
+                font-weight: bolder;
+                font-size: 100px;
+                color: #4E47FF;
+                margin bottom: 8px;
+            }
+            .last-paragraph{
+                color: #8987A1;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            a{
+                text-decoration: none;
+                color:#8987A1;
+            }
+            .last-line{
+                display: flex;
+                justify-content: space-around;
+                gap: 8px;
+            }
+            .last-part{
+                margin: auto;
+                width: 531px;
+                height: 221px;
+                padding-bottom: 103px;
+            }
